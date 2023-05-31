@@ -1,9 +1,7 @@
 
 # Overview
 
-This repository helps you to convert an OpenAPI 3.0 spec, such as the Quickstart API spec (swaggerv2API.yaml), to a file format that is easier to be imported into Postman. 
-
-Also, the code samples are also imported with much less manual tweaking work.
+This repository helps you to convert an OpenAPI 3.0 spec, such as the Quickstart API spec ([swaggerv2API.yaml](https://www.zuora.com/developer/yaml/swaggerv2API.yaml)), to a file format that is much easier to be imported into Postman. Also, the code samples are also imported with less manual tweaking work.
 
 
 
@@ -30,7 +28,7 @@ $ npm i -g openapi-to-postmanv2
 
 3. In terminal, run the following command:
 
-```
+```terminal
 openapi2postmanv2 -s swaggerv2API.yaml -o specv2API.json -p -O folderStrategy=Tags,requestParametersResolution=Example,optimizeConversion=false,stackLimit=100
 ```
 
